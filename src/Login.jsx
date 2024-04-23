@@ -78,7 +78,7 @@ alert("Login Successful")
                       </div>
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
-                          <Link href="/" className="forget">
+                          <Link to="/" className="forget">
                             Forget Pasword
                           </Link>
                         </div>
@@ -86,7 +86,7 @@ alert("Login Successful")
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
                           Don't have an account?
-                          <Link href="/register" className="forget">
+                          <Link to="/register" className="forget">
                             create
                           </Link>
                         </div>

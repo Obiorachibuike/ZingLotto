@@ -111,7 +111,7 @@ localStorage.setItem("userData", JSON.stringify(mergeData))
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
                           Already have an account?
-                          <Link href="/login" className="forget">
+                          <Link to="/login" className="forget">
                             login
                           </Link>
                         </div>
