@@ -12,8 +12,7 @@ function App() {
   return (
 <>
 
-<SignUP />
-<Login />
+
 <Router>
       <Routes>
         <Route path="/" element={<SignUP />} />
