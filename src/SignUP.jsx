@@ -2,6 +2,7 @@ import  { useState } from "react";
 // import "./Styles/signup.css";
 
 import { generateReferalLink } from './Function/generateReferalLink';
+import { Link } from "react-router-dom";
 
 function SignUP() {
   const [password, setPassword] = useState("");
@@ -110,9 +111,9 @@ localStorage.setItem("userData", JSON.stringify(mergeData))
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
                           Already have an account?
-                          <a href="/login" className="forget">
+                          <Link href="/login" className="forget">
                             login
-                          </a>
+                          </Link>
                         </div>
                       </div>
 

@@ -1,5 +1,6 @@
 import  { useState } from "react";
 import "./Styles/login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [password, setPassword] = useState("");
@@ -77,17 +78,17 @@ alert("Login Successful")
                       </div>
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
-                          <a href="/" className="forget">
+                          <Link href="/" className="forget">
                             Forget Pasword
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="forget-password-cont">
                         <div className="forget-password-content">
                           Don't have an account?
-                          <a href="/register" className="forget">
+                          <Link href="/register" className="forget">
                             create
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="button-cont">
